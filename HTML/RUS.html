@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Visualize Dream</title> 
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script> ScrollReveal({ duration: 1500 }) </script>
+
+</head>
+
+<body>
+
+    <a href="#" id="button">
+        <i class="bi bi-arrow-up-circle-fill h1"></i>
+    </a>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top reveal-once">
+        <div class="container">
+            <a href="#" class="navbar-brand">Visualize Dream</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#works" class="nav-link">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Частые вопросы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="RUS.html" class="nav-link">RU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">ENG</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+
+    <section class="bg-dark text-light p-5 pt-lg-5 text-center text-md-start reveal-always" id="showcase">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Создайте ваш<span class="text-warning"> Интерьер Мечты</span></h1>
+                    <p class="lead my-4">
+                        Привет, меня зовут Мария! <br>
+                        Я 3D визуализатор интерьеров и могу помочь вам создать визуализацию вашего 
+                        дома и воплотить в жизнь самые лучшие варианты интерьера.
+                        <br> Я хотела бы сделать дом вашей мечты реальностью, поэтому давайте работать вместе!
+                    </p>
+                    <button class="btn btn-primary btn-lg"> <a href="#works">Посмотреть мои работы</a> </button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="../Images/Bar.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Boxes -->
+    <section class="p-5 reveal-always">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark navbar-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Высокое качество
+                            </h3>
+                            <p class="card-text">
+                                3D-рендеры покажут ваш интерьер в самом высоком качестве
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-house"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Реалистичность
+                            </h3>
+                            <p class="card-text">
+                                Неотличимые от фотографий 3D-рендеры  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark navbar-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Индивидуальность
+                            </h3>
+                            <p class="card-text">
+                                Индивидуальный подход к каждому проекту и каждому клиенту
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Work sections -->
+    <!-- Kitchen -->
+    <section id="works" class="p-5 reveal-always">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <div id="carousel-kitchen" class="carousel carousel-dark slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-kitchen" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#carousel-kitchen" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel-kitchen" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#carousel-kitchen" data-bs-slide-to="3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../Images/Kitchen/01.jpg" class="d-block w-100" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/Kitchen/02.jpg" class="d-block w-100" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/Kitchen/03.jpg" class="d-block w-100" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/Kitchen/04.jpg" class="d-block w-100" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-kitchen"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-kitchen"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md p-5">
+                    <h2>The Kitchen</h2>
+                    <p class="lead">Современный дизайн кухни в холодных тонах с преобладанием текстуры дерева</p>
+                    <p class="">Каждый предмет мебели моделировался вручную. Качественное освещение позволяет проникнуться атмосферой холодного зимнего утра.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loft -->
+    <section id="learn" class="p-5 bg-dark text-light reveal-always">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-4">
+                    <h2 class="center-align">Loft Studio</h2>
+                    <p class="lead center-align">Двухэтажная студия-лофт в современном стиле с большими панорамными окнами
+                    </p>
+                    <p class="center-align">
+                        Различные варианты освещения позволяют увидеть этот просторный лофт во всем его многообразии. <br>
+                        Каждая комната выполнена с большим вниманием к деталям, чтобы максимально передать атмосферу проекта
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <div id="carousel-loft" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-loft" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#carousel-loft" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel-loft" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#carousel-loft" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#carousel-loft" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#carousel-loft" data-bs-slide-to="5"></button>
+                            <button type="button" data-bs-target="#carousel-loft" data-bs-slide-to="6"></button>
+                            <button type="button" data-bs-target="#carousel-loft" data-bs-slide-to="7"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../Images/Loft studio/Camera_02.jpg" class="d-block w-50 loft-height"
+                                        alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../Images/Loft studio/Camera_09.jpg" class="d-block w-50 loft-height"
+                                        alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../Images/Loft studio/Camera_08.jpg" class="d-block w-75" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../Images/Loft studio/Camera_10.jpg" class="d-block w-75" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../Images/Loft studio/Camera_13.jpg" class="d-block w-75" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../Images/Loft studio/Camera_04.jpg" class="d-block w-75" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../Images/Loft studio/Camera_05.jpg" class="d-block w-100 loft-height"
+                                        alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../Images/Loft studio/Camera_07.jpg" class="d-block w-100 loft-height"
+                                        alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                                </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-loft"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-loft"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Classic living room -->
+    <section id="works" class="p-5 reveal-always">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>The Living Room</h2>
+                    <p class="lead">Гостиная в современном классическом стиле в разных вариантах освещения</p>
+                    <p>Бархатная мебель привлекает внимание и является центром композиции, прекрасно дополняя классический интерьер в темных тонах. 
+                    <br> Мудборд позволяет оценить сочетание материалов и цветов проекта до его реализации</p>
+                </div>
+                <div class="col-md">
+                    <div id="carousel-living-room" class="carousel slide carousel-dark" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-living-room" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#carousel-living-room" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel-living-room" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../Images/Classic living room/Фотошоп_01.jpg" class="d-block w-100" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/Classic living room/01.jpg" class="d-block w-100" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/Classic living room/Мудборд_2.jpg" class="d-block w-100" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-living-room"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-living-room"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The cabin -->
+    <section id="learn" class="p-5 bg-dark text-light reveal-always">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2 class="center-align">The Cabin</h2>
+                    <p class="lead center-align">Продуманный интерьер позволяет сделать из небольшого пространства уютный дом на все времена</p>
+                    <p class="center-align">Каждая деталь была сделана с особой тщательностью и вниманием. 
+                        Большое окно до потолка позволяет превнести много света в интерьер и любоваться захватывающими видами природы. 
+                        Сочетание дерева, черной керамики и зелени выглядит современно и актуально</p>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <div id="carousel-cabin" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-cabin" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#carousel-cabin" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel-cabin" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#carousel-cabin" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#carousel-cabin" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#carousel-cabin" data-bs-slide-to="5"></button>
+                            <button type="button" data-bs-target="#carousel-cabin" data-bs-slide-to="6"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../Images/The cabin/01.jpg" class="d-block w-100 cabin-height" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/The cabin/04.jpg" class="d-block w-100 cabin-height" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/The cabin/07.jpg" class="d-block w-100 cabin-height" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/The cabin/05.jpg" class="d-block w-50 cabin-height" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/The cabin/06.jpg" class="d-block w-50 cabin-height" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/The cabin/02.jpg" class="d-block w-50 cabin-height" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../Images/The cabin/03.jpg" class="d-block w-50 cabin-height" alt="..." data-bs-toggle="modal" data-bs-target="#zoom">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-cabin"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-cabin"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- question accordion -->
+
+    <section id="questions" class="p-5 reveal-always" id="services">
+        <div class="container">
+            <h2 class="text-center mb-4"> <br>Часто задаваемые вопросы</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one">
+                            Что такое 3D-моделирование? Зачем мне 3D модель моего интерьера?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body"> 3D-моделирование — это процесс создания виртуальной модели вашего дома со всеми деталями. <br> 
+                            Такая 3D-модель позволяет увидеть дизайн-проект еще до начала ремонта, чтобы вы могли заранее оценить, подходит ли вам такое решение. </div>
+                    </div>
+                </div>
+                <!-- item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two">
+                            Что у меня должно быть, прежде чем вы сможете создать 3D-модель?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body"> Вам понадобятся: <br>
+                            - Все чертежи в формате pdf <br>
+                            - План расстановки мебели <br>
+                            - План потолка с расположением светильников <br>
+                            - Развертки по стенам с описанием отделки, раскладкой отделочных материалов,
+                            указано, где их использовать. <br>
+                            - План этажа с подробным описанием напольного покрытия и направлением укладки <br>
+                            - Подборка мебели, освещения, сантехники, крупных элементов декора (имена, артикулы,
+                            цвет или ссылку на этот товар) <br>
+                            - Референсы интерьеров, мебели, мудбордов или коллажей </div>
+                    </div>
+                </div>
+                <!-- item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three">
+                            А как насчет цен? Как быстро я могу получить свою 3D-модель?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body"> Цена за квадратный метр 450 руб. <br>
+                            Сроки выполнения работы 2-4 рабочих дня на помещение. <br>
+                            <p class="small">*Окончательная стоимость работы и сроки зависят от сложности
+                                интерьера</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-four">
+                            Что входит в стоимость работ?
+                        </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body"> В стоимость входит: <br>
+                            - 4-6 ракурсов на комнату <br>
+                            - Close Up - ракурс с акцентом на декор <br>
+                            - 2 круга правок <br> <br>
+                            В стоимость НЕ входит: <br>
+                            - Платные PRO модели </div>
+                    </div>
+                </div>
+                <!-- item 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-five">
+                            Какие дополнительные услуги вы предоставляете?
+                        </button>
+                    </h2>
+                    <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body"> Вы можете заказать дополнительно: <br>
+                            - Набор правок - индивидуально, зависит от количества правок, оговаривается заранее <br>
+                            - 360° 3d панорама жилых помещений - 1000 руб за ракурс <br>
+                            - Дополнительная опция освещения - 500 руб (один ракурс) <br>
+                            - Дополнительный ракурс - 500 руб </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me-->
+    <section class="m-p" id="contact">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Контакты</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Telegram:</span> <a href="https://t.me/mnikolaeva0810"
+                                target="_blank">@mnikolaeva0810</a>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">WhatsApp:</span> <a href="http://wa.me/+79852822337"
+                                target="_blank">+79852822337</a>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Behance:</span> <a href="https://www.behance.net/mariia_nikolaeva"
+                                target="_blank">mariia_nikolaeva</a>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Gmail:</span> <a href="mailto:m.nikolaeva0810@gmail.com"
+                                target="_blank">m.nikolaeva0810@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <img src="../Mashas site/../Images/Фото Маши copy.png" class="img-fluid pb-5 ps-8 w-75" alt=""
+                        id="footer-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+
+    <footer class="p-5 bg-dark text-white position-relative reveal-always">
+        <div class="container">
+            <p class="lead text-center">Copyright &copy; 2022 Vizualize Dream</p>
+        </div> 
+    </footer>
+
+    <!-- modal -->
+    <div class="modal fade" id="zoom" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close btn-close-white custom-close"
+                        data-bs-dismiss="modal"></button>
+                    <div id="fullpage" data-bs-dismiss="modal"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" ></script>
+    <script src="../js/zoomable.js"></script>
+
+    <script>
+        ScrollReveal().reveal('.reveal-always', { origin: 'top', reset: true })
+        ScrollReveal().reveal('.reveal-once', { origin: 'top', reset: false }) 
+    </script> 
+
+</body>
+
+</html>
