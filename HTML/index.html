@@ -13,12 +13,12 @@
     <title>Visualize Dream</title>
 
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script> ScrollReveal({ duration: 1500 }) </script> 
-
+    <script> ScrollReveal({ duration: 1500 }) </script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
 </head>
 
-<body onload="ScrollReveal(), scroll() " >
+<body>
 
     <a href="#" id="button">
         <i class="bi bi-arrow-up-circle-fill h1"></i>
@@ -523,6 +523,7 @@
         <div class="container">
             <p class="lead text-center">Copyright &copy; 2022 Vizualize Dream</p>
         </div>
+        <p id="texto"></p>
     </footer>
 
     <!-- modal -->
@@ -536,16 +537,17 @@
                 </div>
             </div>
         </div>
-    </div> 
-
-    <script src="../js/bootstrap.bundle.js"></script>
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
     <script src="../js/zoomable.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
     <script>
         ScrollReveal().reveal('.reveal-always', { origin: 'top', reset: true })
         ScrollReveal().reveal('.reveal-once', { origin: 'top', reset: false }) 
-    </script>
+    </script> 
 </body>
 
 </html>
