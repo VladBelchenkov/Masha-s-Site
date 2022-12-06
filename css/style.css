@@ -165,9 +165,9 @@ p {
         height: auto !important
     }
 
-    .center-align {
+    /* .center-align {
         text-align: left;
-    }
+    } */
 
     .my-4 {
         text-align: left;
@@ -175,7 +175,16 @@ p {
 
     #button {
         padding: 0.2rem;
-    } 
+    }  
+    #showcase img{
+        padding-top: 1rem;
+    }
+    #works p, h2 {
+        text-align: center !important; 
+    }
+    #showcase p{
+        text-align: center !important; 
+    }
 }
 
 @media(min-width: 1400px) {
